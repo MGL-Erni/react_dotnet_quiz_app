@@ -2,8 +2,6 @@ import axios from 'axios';
 
 export const BASE_URL = 'http://localhost:5138/';
 
-// used plural naming convention for the model endpoints
-// e.g. `/Participants` not just `/Participant`
 export const ENDPOINTS = {
     participant: 'Participant',
     question: 'Questions',
